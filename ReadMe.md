@@ -62,6 +62,7 @@ https://mahanteshtalikoti-git.github.io/service-worker-caching/index.html
 
 
 Note: Post hosting over GitHub pages, even if network (internet) is down, our website keeps functioning.
+After all testing is over, please UnPublish the site.
 ```
 
 ### mysqlsh commands
