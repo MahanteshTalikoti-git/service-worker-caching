@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Home - Service Worker Example</title>
+</head>
+<body>
+    <header>
+        <h1>Service Worker Example</h1>
+    </header>
+    <nav>
+        <ul>
+            <li class="current">
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Home</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus nihil unde doloremque? Minus accusantium reiciendis 
+            perferendis aliquam consequuntur odio deserunt ut unde adipisci natus, autem ab facere porro sapiente corporis a pariatur 
+            eligendi enim non, iusto quasi obcaecati veniam aliquid iure? Error ullam iste molestiae aliquam quo ex libero ratione.</p>
+    </main>
+    <script type="text/javascript">
+        navigator.serviceWorker
+            //.register('sw_cached_pages.js')
+            .register('sw_cached_site.js')
+            .then(function(registration) {
+                console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                }, 
+            function(err) {
+                console.log('ServiceWorker registration failed: ', err);
+            });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
