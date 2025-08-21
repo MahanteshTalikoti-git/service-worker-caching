@@ -44,6 +44,26 @@ git remote add origin https://github.com/MahanteshTalikoti-git/mtalikoti.github.
 git push -u origin master
 ```
 
+### GitHub pages
+```
+For GitHub pages (to host our webapplication); try to create PUBLIC repo.
+GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository.
+Once code is pushed to GitHub, navigate to Settings tab - Pages link [left panel].
+Deploy from a branch - specify master branch - Save btn.
+Once Save is clicked, triggers automatic build (GitHub actions), to visualise this, go to Actions tab.
+Wait till pages-build-deployment turns green.
+Again come back to Settings - Pages; it will shows something as below:
+Your site is live at https://mahanteshtalikoti-git.github.io/service-worker-caching/
+Last deployed by @MahanteshTalikoti-git MahanteshTalikoti-git 9 minutes ago
+
+Click on "Visit Site" button to launch the website in browser hosted over GitHub.
+
+https://mahanteshtalikoti-git.github.io/service-worker-caching/index.html
+
+
+Note: Post hosting over GitHub pages, even if network (internet) is down, our website keeps functioning.
+```
+
 ### mysqlsh commands
 ```
 mysqlsh
